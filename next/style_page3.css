@@ -1,0 +1,484 @@
+/**FONTS**/
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap'); /**bold**/
+
+
+:root {
+    --yashil: #1dd1a1;
+    --qora: #343434;
+}
+html {
+    overflow-x: hidden !important;
+}
+* {
+	box-sizing: border-box!important;
+    font-family: Verdana, Arial, sans-serif;
+}
+body {  
+    scroll-behavior: smooth;
+    overflow-x: hidden !important;
+    background-color: #f5f5f5;
+    color: var(--qora);
+}
+.clr {
+    clear: both;
+}
+.col-md-2, .col-md-4, .col-md-7, .col-md-3 {
+    float: left;
+}
+
+/*   NAVIGATION BAR  */
+.navigationBar {
+    background-color: #ffffff!important;
+}
+.navbar-toggler {
+    outline: none!important;
+    border: 1px solid var(--yashil)!important;
+    font-size: 15px!important;
+    box-shadow: none !important;
+}
+.navbar-toggler:focus {
+    border: 2px solid var(--yashil) !important;
+}
+.nav-link {
+    margin: 0px 20px;
+    font-weight: 600;
+    font-size: 14px;
+    color: var(--qora) !important;
+    transition: .3s ease;
+}
+.nav-link:hover {
+    color: var(--yashil) !important;
+}
+
+/*  Right Side  */
+.full-name {
+    display: inline-block;
+    margin: 10px 5px -5px;
+}
+#fullName {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 0px 0px -4px;
+}
+.full-name > p, .full-name > p > span {
+    display: inline-block;
+    font-size: 10px;
+    line-height: 12px;
+    font-weight: bold;
+    color: #ababab;
+}
+.user-pic {
+    display: inline-block;
+    background: #ababab;
+    width: 33px;
+    height: 33px;
+    border-radius: 6px;
+    margin: 10px 5px 0px 15px;
+    transition: 0.3s ease;
+}
+.user-pic > i {
+    font-size: 21px;
+    color: #fff;
+    margin: 7px;
+}
+.fa-search, .fa-bell {
+    color: #ababab;
+    font-size: 25px;
+    padding: 24px 15px;
+    margin: -10px 0px -8px;
+    transition: 0.3s ease;
+    border-right: 1px solid #09374433;
+    border-left: 1px solid #09374433
+}
+.fa-search:hover, .fa-bell:hover, .user-pic:hover {
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.65);
+}
+.fa-bell {
+    border-left: none;
+}
+.menu-btn {
+    width: 40px;
+    height: 40px;
+    font-size: 25px;
+    border: 1px solid transparent;
+    outline: none;
+    cursor: pointer !important;
+    background: transparent;
+    margin: 5px 0 0 50px;
+    transition: .3s ease;
+}
+.menu-btn:hover {
+    border: 1px solid var(--qora);
+}
+/*  Righ Side End  */
+
+  /*  NAVIGATION BAR End  */
+
+
+ /* Counter Card */
+#card {
+    width: 480px;
+    height: 130px;
+    margin: 50px 0px 80px;
+    background: #fff;
+    float: left;
+    border-radius: none;
+    box-shadow: 0px 6px 30px 0px #DCEBE6DE;
+}
+.block {
+    width: 33.3%;
+    float: left;
+    padding: 25px 0px 0px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+.block > h3 {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: bold;
+    margin: -10px 0px 5px;
+}
+ /* Counter Card End */
+
+    /* Kurs yaratish */   
+h2 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #111111;
+    text-align: center;
+}
+.course-card {
+    width: 350px;
+    height: 360px;
+    background: #fff;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 40px 0px 70px;
+    transition: 0.3s ease;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.03);
+}
+.course-card:hover {
+    box-shadow: none;
+}
+.course-card > h5 {
+    font-size: 20px;
+    line-height: 24px;
+    color: #111111;
+    font-weight: 600;
+}
+    /* Kurs yaratish End */    
+
+/*   Tilni tanlash */
+#progLangs > h2 {
+    text-align: left;
+    float: left;
+    margin-left: 0 0 30px 15px;
+}
+#progLangs > button {
+    float: right;
+    font-size: 11px;
+    border: 1px solid var(--qora);
+    border-radius: 2px;
+    background: transparent;
+    outline: none;
+    margin: 10px 0px 30px;
+    padding: 9px 10px;
+    transition: 0.3s ease;
+}
+#progLangs > button:hover {
+    color: #fff;
+    background: var(--qora);
+}
+.col-md-4 {
+    padding: 50px 15px;
+}
+.prog-card {
+    position: relative;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.card-header {
+    background-color: #fff!important;
+}
+.card-header > h4 {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 800;
+    margin: 17px 13px 6px;
+}
+.card-header > p {
+    font-size: 15px;
+    line-height: 17.7px;
+    margin: 8px 13px;
+}
+.green {
+    opacity: .6;
+}
+.card-body > p {
+    font-size: 14px;
+    line-height: 18px;
+    margin: 10px 13px ;
+}
+.card-body > a > button {
+    position: absolute;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F6FCFA;
+    background: var(--yashil);
+    border: 1px solid var(--yashil);
+    border-radius: 4px;
+    outline: none;
+    padding: 11px 15px;
+    left: 30px;
+    bottom: 32px;
+    transition: .3s ease;
+}
+.card-body > a > button:hover {
+    color: var(--yashil);
+    background-color: transparent;
+}
+.fa-arrow-right {
+    margin: 0 10px 0 10px;
+    transition: margin .3s ease;
+}
+.card-body > a > button:hover .fa-arrow-right {
+    margin: 0 -3px 0 23px;
+}   
+/*   Tilni tanlash End */
+
+/*   FOOTER   */
+footer {
+    height: 120px;
+    background-color: #093845;
+    padding: 38px 0 10px;
+    margin-top: 100px;
+}
+ul {
+    list-style-type: none;
+}
+.footer-link {
+    font-size: 16px;
+    line-height: 19px;
+    color: #F6FCFA !important;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px 23px 0;
+}
+.footer-link:hover {
+    text-decoration: underline;
+}
+.icons > i {
+    color: #F6FCFA !important;
+    font-size: 23px;
+    opacity: .5;
+    margin: 15px 12px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.icons > i:hover {
+    opacity: 1;
+}
+footer > .container > p {
+    opacity: .5;
+    font-size: 12px;
+    line-height: 14px;
+}
+/*   FOOTER End   */
+
+/*  Computer Version End  */
+
+/* ==== RESPONSIVE ====*/
+
+@media screen and (max-width: 1399px) {
+    .icons > i {
+        margin: 15px 10px;
+    }
+    
+    .card-header > h4 {
+        margin: 6px 13px;
+    }
+    .card-body > a > button {
+        font-size: 15px;
+        padding: 9px 15px;
+        left: 30px;
+        bottom: 22px;
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .nav-link {
+        margin: 0px 8px;
+    }
+    .course-card {
+        width: 110%;
+        height: 350px;
+    }
+    .card-header > h4 {
+        font-size: 20px;
+        line-height: 22px;
+        margin: 4px 0px;
+    }
+    .card-header > p {
+        font-size: 14.5px;
+        margin: 8px 0px;
+    }
+    .card-body > p {
+        font-size: 14px;
+        margin: 0;
+    }
+    .card-body > a > button {
+        left: 15px;
+        bottom: 30px;
+    }
+    .col-md-4 {
+        padding: 10px;
+    }
+    #progLangs > h2 {
+        margin-left: 10px;
+    }
+    .footer-link {
+        margin: 15px 10px 0;
+    }
+    .icons > i {
+        margin: 15px 6px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .nav-link {
+        text-align: center;
+    }
+    .nav-right-block {
+        width: 100%;
+        justify-content: center;
+    }
+    .fa-search, .fa-bell {
+        border: none;
+        margin: -10px 0 0;
+    }
+    .col-md-4 {
+        padding: 5px;
+    }
+    .card-header > p {
+        font-size: 12.5px;
+        margin: 8px 0px 3px;
+    }
+    .card-body > p {
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .card-body > a > button {
+        padding: 7px 10px;
+        bottom: 25px;
+    }   
+    footer {
+        height: auto;
+        text-align: center;
+    }
+    .col-md-7, .col-md-3, .icons  {
+        width: 100%;
+    }
+    .footer-link {
+        margin: 15px 5px 0;
+    }
+    footer > .container > p {
+        color: #fff;
+    }
+    .prog-card {
+        height: 330px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu-btn {
+        margin: 5px 0 0 5px;
+    }
+    .user-pic {
+        margin: 10px 5px 0px 5px;
+    }
+    .fa-search, .fa-bell {
+        padding: 24px 5px;
+    }
+    #card {
+        width: 100%;
+    } 
+    h2 {
+        font-size: 25px;
+    }
+    .course-card {
+        width: 130%;
+        height: 280px;
+    }
+    .card-header > h4 {
+        font-size: 30px;
+        line-height: 35px;
+        margin: 4px 15px;
+    }
+    .card-header > p {
+        font-size: 16px;
+        margin: 10px 15px 5px;
+    }
+    .card-body > p {
+        font-size: 16px;
+        margin: 0 15px;
+        line-height: 20px;
+    }
+    .card-body > a > button {
+        padding: 11px 20px;
+        bottom: 32px;
+        left: 32px;
+        font-size: 17px;
+    }
+    .prog-card {
+        height: 310px;
+    }
+    .footer-link { 
+        display: block;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .col-md-4, .course-card {
+        width: 100%;
+    }
+    .card-header > h4 {
+        font-size: 25px;
+        line-height: 30px;
+        margin: 4px 0px;
+    }
+    .card-header > p {
+        font-size: 15px;
+        margin: 10px 0px 5px;
+    }
+    .card-body > p {
+        font-size: 15px;
+        margin: 0;
+        line-height: 17px;
+    }
+    .card-body > a > button {
+        padding: 8px 10px;
+        bottom: 20px;
+        left: 18px;
+        font-size: 16px;
+    }
+    .prog-card {
+        height: 320px;
+    }
+    .col-md-4 {
+        padding: 15px 0;
+    }
+    .prog-card {
+        height: 330px;
+    }
+    
+}
+/* ==== RESPONSIVE END ====*/

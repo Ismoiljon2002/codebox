@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> CodeBox | Coding Academy </title>
+
+    <link rel="stylesheet" href="./Bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./aos/dist/aos.css" />
+    <link rel="stylesheet" href="./fontawesome-free-5.15.3-web/css/all.min.css" />
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid container">
+            <a class="navbar-brand" href="#">
+                <img class="logo-img" src="./images/Group.svg" alt="" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#about-us">Loyiha haqida</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#languages">Dasturlash tillari</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#price">Narxlar</a>
+                    </li>
+                </ul>
+
+                <div class="d-flex nav-right-block">
+                    <select name="" id="navbar-select">
+                        <option value="O'zbek tili">O'zbek tili</option>
+                        <option value="Русский язык">Русский язык</option>
+                        <option value="English">English</option>
+                    </select>
+                    <a href="./next/page1_3oy.html">
+                        <button class="navbar-btn">Ro'yxatdan o'tish</button>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <header>
+        <div class="container">
+            <div class="col-md-7 ">
+                <h1 class="header-h1">
+                    Agar bajarishdan qo'rqsangiz <br />
+                    buni albatta bajarib ko'ring
+                </h1>
+
+                <form action="" id="home-form">
+                    <div class="home-form">
+                        <p>Telefon nomer</p>
+                        <input type="tel" placeholder="+998934614188" minlength="7" maxlength="18" required />
+                        <hr />
+                        <p>Parol</p>
+                        <input type="password" placeholder="Parol" minlength="8" maxlength="20" required />
+                    </div>
+                    <button class="header-btn" type="submit">Kirish</button>
+                    <div class="ellipse">
+                        <div class="circle"></div>
+                    </div>
+                    <p>Meni eslab qol</p>
+
+                </form>
+            </div>
+
+            <div class="col-md-5" data-aos="zoom-in"
+            data-aos-duration="900">
+                <a href="https://www.youtube.com/watch?v%3D9OKfktv3k-0&sa=D&source=editors&ust=1615622800026000&usg=AFQjCNHbze4Da_UpzyUqvu3vuiNKezHZdQHD=1" target="_blank">
+                    <img class="header-img" src="./images/Group 65.png" alt="" />
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="clr"></div>
+
+    <main>
+        <section id="about" class="about">
+            <div class="container">
+                <h2 id="about-us" class="main-h2">
+                    Dasturlashni amaliy <br />
+                    tarzda CodeBox bilan o'rganing.
+                </h2>
+
+                <div class="col-md-6 main-img" data-aos="fade-right" data-aos-duration="700" >
+                    <img src="./images/Group 40.png" alt="" />
+                </div>
+                <div class="col-md-6 main-text" data-aos="fade-left" data-aos-duration="700" >
+                    <h3>01. Dasturlash tilini tanlang.</h3>
+                    <p>
+                        Hozirgi kunda eng ommabop dasturlash tillarini CodeBoxga kiritdik
+                        va buni doimiy tarzda yangilab boramiz.
+                    </p>
+                </div>
+                <div class="clr"></div>
+
+                <div class="col-md-6 main-text text-2" data-aos="fade-right" data-aos-duration="700" >
+                    <h3>
+                        02. Topshiriqlarni bajarish <br />
+                        orqali o'rganing.
+                    </h3>
+                    <p>
+                        Dasturlash algoritmlari, suhbat uchun topshiriqlari va murakkab
+                        topshiriqlarni bajaring.
+                    </p>
+                </div>
+                <div class="col-md-6 main-img" data-aos="fade-left" data-aos-duration="700" >
+                    <img class="bg-oval-1" src="./images/bg-oval.png">
+                    <div class="string">
+                        <i class="fas fa-check-circle tick"></i>
+                        <p> String </p>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                    <div class="array">
+                        <i class="arrayAlert fas fa-exclamation-triangle"></i>
+                        <p> Array </p>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+                    <div class="logic">
+                        <i class="tick fas fa-check-circle"></i>
+                        <p> Logic </p>
+                        <i class="fas fa-ellipsis-v"></i>
+                    </div>
+
+                </div>
+                <div class="clr"></div>
+
+                <div class="col-md-6 main-img img-3" data-aos="fade-right" data-aos-duration="700" >
+                    <img src="./images/Group 68.png" alt="" />
+                </div>
+                <div class="col-md-6 main-text text-3" data-aos="fade-left" data-aos-duration="700" >
+                    <h3>
+                        03. Yakunlangan dasturlash tiliga <br />
+                        tegishli oid fraymvork o'rganing.
+                    </h3>
+                    <p>
+                        Web, Mobile, Desktop va boshqa yo'nalishlarda dasturlash tili
+                        imkoniyatlaridan kelib chiqib fraymvork o'rganing.
+                    </p>
+                </div>
+
+                <div class="clr"></div>
+
+                <div class="col-md-6 main-text text-4" data-aos="fade-right" data-aos-duration="700">
+                    <h3>
+                        04. Ishga ega bo'ling yoki katta <br />
+                        loyihalar yarating.
+                    </h3>
+                    <p>
+                        Dasturlashda jamoa bo'lib ishlash juda muhim. Shuning uchun biror
+                        jamoaga borib qo'shiling yoki o'z jamoangizni tuzing.
+                    </p>
+                </div>
+                <div class="col-md-6 main-img last-img-block" data-aos="fade-left" data-aos-duration="700" >
+                    <img class="bg-oval-2" src="./images/bg-oval.png" alt="">
+                    <img class="bg-oval-ellipse" src="./images/Ellipse.png" alt="">
+
+                    <img class="first-tick" src="./images/Group 42.1.png" alt="">
+                    <img class="large-user" src="./images/Group 47.png" alt="">
+                    <img class="medium-user" src="./images/Group 46.png" alt="">
+                    <img class="html-coding" src="./images/html-coding.png" alt="">
+                    <img class="small-user" src="./images/Group 46.2.png" alt="">
+                    <img class="medium-user-red" src="./images/Group 46.1.png" alt="">
+                    <img class="last-tick" src="./images/Group 42.1.png" alt="">
+
+                </div>
+            </div>
+        </section>
+
+        <div class="clr"></div>
+
+        <section id="prog-langs" class="prog-langs" >
+            <div class="container">
+                <h2 id="languages" class="prog-h2">
+                    O’zingiz uchun dunyoda mashxur <br>
+                    dasturlash tillaridan birini <br>
+                    tanlang
+                </h2>
+                <div class="col-md-4">
+                    <div class="prog-card" data-aos="fade-down-right" data-aos-duration="700" >
+                        <div class="card-header">
+                            <h4>JAVA</h4>
+                            <p>128 ta <span class="green"> topshiriq </span> | 38 ta <span class="green"> bo’lim </span>
+                            </p>
+                        </div>
+                        <div class="card-body">
+                            <p>Java - silno tipirovannyy obyektno orientirovann yysag yazyk programmirovaniya,
+                                razrabotannyy kompaniey Sun Microsystems. V nastoyashchee vremya proekt matlenejit
+                                OpenSource i rasprof ranya yaetsya po litsenzii GPL. V OpenJDK vnosyat vklad krupnye
+                                kompanii, sochi kak - Oracle, RedHat, IBM, Google
+                            </p>
+
+                            <a href="./next/page3_3oy.html">
+                                <button type="button">Kursni boshlash <i class="fas fa-arrow-right"></i> </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="prog-card" data-aos="zoom-in" data-aos-duration="700" >
+                        <div class="card-header">
+                            <h4>PYTHON</h4>
+                            <p>122 ta <span class="green"> topshiriq </span> | 13 ta <span class="green"> bo’lim </span>
+                            </p>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Python - vysokourovnevyy yazyk programirova
+                                niya obshchego naznacheniya, orientirovannyy na povyshenie proizvoditelnosti
+                                razrabotchika i
+                                chitaemosti koda. Syntaxxd Python minimalis tichen. V toni vremya standartnaya
+                                biblioteka vklyuchaet bolshoy ob'yom poleznyx fonksiyont
+                            </p>
+
+                            <a href="./next/page3_3oy.html">
+                                <button type="button">Kursni boshlash <i class="fas fa-arrow-right"></i> </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="prog-card" data-aos="fade-up-left" data-aos-duration="700" >
+                        <div class="card-header">
+                            <h4>GO</h4>
+                            <p>122 ta <span class="green"> topshiriq </span> | 13 ta <span class="green"> bo’lim </span>
+                            </p>
+                        </div>
+                        <div class="card-body">
+                            <p>
+                                Go - kompilyumemyy multilogo yazyk program
+                                movaniya, razrabotannyy vnutri kompanii Google.
+                                Razrabotka Go nachalas v sentabr 2007 goda, ego neposredstvennym projektirovaniem zanima
+                                lis Robert Grizmer, Rob Pikk i Ken Thompson, zanimavshiesya do etogo proektom razrabotki
+                            </p>
+
+                            <a href="./next/page3_3oy.html">
+                                <button type="button">Kursni boshlash <i class="fas fa-arrow-right"></i> </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="clr"></div>
+
+        <section id="ad" class="ad">
+            <div class="container">
+                <div class="col-md-6">
+                    <h2 class="ad-h2">
+                        Tizimdan foydalanuvchilar soni
+                        500+ dan ortiq. Siz ham ular
+                        safiga qo’shiling
+                    </h2>
+                    <p class="ad-p">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut diam quam nulla porttitor massa id neque aliquam vestibulum.
+                        Malesuada pellentesque elit eget gravida cum sociis natoque penatibus et. Vitae semper quis
+                        lectus nulla. Viverra vitae congue eu consequat ac felis donec et. Turpis egestas integer eget
+                        aliquet nibh praesent tristique. At auctor urna nunc id. Consectetur adipiscing.
+                    </p>
+                    <a href="./next/page3_3oy.html">
+                        <button class="ad-btn">Qo’shilish</button>
+                    </a>
+                </div>
+                <div class="col-md-6">
+                    <img class="ad-img" src="./images/Group 32.png" alt="">
+                </div>
+            </div>
+        </section>
+        <div class="clr"></div>
+
+        <section id="tariff" class="tariff">
+            <div class="container">
+                <h2 id="price" class="tarif-h2">
+                    O’z rejangizni <br>
+                    tanlang
+                </h2>
+
+                <div class="col-md-4">
+                    <div class="tarif-card text-center" data-aos="flip-left" data-aos-duration="700" >
+                        <h4>Simple</h4>
+                        <h3>99.000 UZS</h3>
+                        <h5>Har 1 oyda to’lov</h5>
+                        <p>
+                            Bu ta’rif to’plamini aktivlashtirish orqali
+                            siz tizimdan 1 oy muddatda to’liq
+                            foydalanishingiz mumkin. Qayta
+                            aktivlashtirish har 1 oy muddatda
+                            amalga oshiriladi.
+                        </p>
+                        <a href="./next/page1_1oy.html">
+                            <button>Obuna bo’lish</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4 middle-tarif">
+                    <div class="tarif-card middle-tarif-card text-center" data-aos="zoom-out" data-aos-duration="700" >
+                        <img class="tavsiya" src="./images/Group 21.png" alt="">
+                        <h4>Middle</h4>
+                        <h3>269.000 UZS</h3>
+                        <h5>Har 3 oyda to’lov</h5>
+                        <p>
+                            Bu ta’rif to’plamini aktivlashtirish orqali
+                            siz tizimdan 3 oy muddatda to’liq
+                            foydalanishingiz mumkin. Qayta
+                            aktivlashtirish har 3 oy muddatda
+                            amalga oshiriladi.
+                        </p>
+                        <a href="./next/page1_3oy.html">
+                            <button>Obuna bo’lish</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="tarif-card text-center" data-aos="flip-right" data-aos-duration="700" >
+                        <h4>Advanced</h4>
+                        <h3>499.000 UZS</h3>
+                        <h5>Har 6 oyda to’lov</h5>
+                        <p>
+                            Bu ta’rif to’plamini aktivlashtirish orqali
+                            siz tizimdan 6 oy muddatda to’liq
+                            foydalanishingiz mumkin. Qayta
+                            aktivlashtirish har 6 oy muddatda
+                            amalga oshiriladi.
+                        </p>
+                        <a href="./next/page1_6oy.html">
+                            <button>Obuna bo’lish</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="clr"></div>
+
+        <section id="comment" class="comment">
+            <div class="container">
+                <h2 class="comment-h2">
+                    Biz haqimizda <br>
+                    boshqalar fikri
+                </h2>
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                            aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                            class="active" aria-current="true" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item">
+                            <div class="back-card">
+                                <div class="front-card text-center">
+                                    <img class="vergul-1" src="./images/“.png" alt="">
+                                    <img class="vergul-2" src="./images/”.png" alt="">
+                                    <img class="face" src="./images/face1.jpg" alt="">
+
+                                    <h4>Peter Jones <br>
+                                        <span style="color: #1dd1a1;"> Intern </span>
+                                    </h4>
+
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Volutpat commodo sed egestas
+                                        egestas.
+                                        Feugiat in ante metus dictum at tempor commodo ullamcorper a.
+                                        ut lectus. Curabitur vitae nunc sed velit dignissim.
+                                        nulla porttitor massa.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item active">
+                            <div class="back-card">
+                                <div class="front-card text-center">
+                                    <img class="vergul-1" src="./images/“.png" alt="">
+                                    <img class="vergul-2" src="./images/”.png" alt="">
+                                    <img class="face" src="./images/image.png" alt="">
+
+                                    <h4>Muhiddin Jumayev <br>
+                                        <span style="color: #1dd1a1;"> Coder </span>
+                                    </h4>
+
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Volutpat commodo sed egestas
+                                        egestas.
+                                        Feugiat in ante metus dictum at tempor commodo ullamcorper a. Vitae auctor eu
+                                        augue
+                                        ut lectus. Curabitur vitae nunc sed velit dignissim sodales ut eu sem. Quam
+                                        nulla porttitor massa id neque aliquam vestibulum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="back-card">
+                                <div class="front-card text-center">
+                                    <img class="vergul-1" src="./images/“.png" alt="">
+                                    <img class="vergul-2" src="./images/”.png" alt="">
+                                    <img class="face" src="./images/face8.jpg" alt="">
+
+                                    <h4>Susan Smith <br>
+                                        <span style="color: #1dd1a1;"> Web Developer </span>
+                                    </h4>
+
+                                    <p>
+                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                        incididunt ut labore et dolore magna aliqua. Volutpat commodo sed egestas.
+                                        Dictum at tempor commodo ullamcorper a. Vitae auctor eu
+                                        augue.
+                                        ut lectus. Curabitur vitae nunc sed velit dignissim sodales ut eu sem. Quam
+                                        nulla porttitor massa id neque aliquam vestibulum.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev">
+                        <i class="fas fa-chevron-left"></i>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next">
+                        <i class="fas fa-chevron-right"></i>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="col-md-3">
+                <img class="footer-logo" src="./images/LOGO-footer.png" alt="">
+            </div>
+            <div class="col-md-7 footer-col-md-7">
+                <ul>
+                    <a class="footer-link" href="#about-us">
+                        <li>Loyiha haqida</li>
+                    </a>
+                    <a class="footer-link" href="#prog-langs">
+                        <li>Dasturlash tillari </li>
+                    </a>
+                    <a class="footer-link" href="#price">
+                        <li>Narxlar</li>
+                    </a>
+                    </li>
+                    <a class="footer-link" href="#comment">
+                        <li>Biz haqimizda</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="col-md-2 icons">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-telegram-plane"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+            <div class="clr"></div>
+            <p>© “Personal Development Process” MCHJ</p>
+        </div>
+    </footer>
+
+    <script src="./aos/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            easing: "ease-in-out-sine",
+        });
+    </script>
+
+    <script src="./Bootstrap/js/bootstrap.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>

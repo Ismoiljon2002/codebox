@@ -1,0 +1,263 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Sozlamalarim </title>
+         <!-- Meta Tags  -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <!-- Meta Tags End  -->
+    
+         <!-- Required CSS Links  -->
+	<link rel="stylesheet" href="../aos/dist/aos.css">
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style_page1.css">
+       <!-- Links End  -->
+</head>
+<body>
+     <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navigationBar">
+        <div class="container-fluid container">
+            <a class="navbar-brand" href="#">
+                <img class="logo-img" src="../images/Group.svg" alt="" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html#about-us">Loyiha haqida</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#anguages">Dasturlash tillari</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#price">Narxlar</a>
+                    </li>
+                </ul>
+
+                <div class="d-flex nav-right-block">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-bell"></i>
+                    <div class="user-pic">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="full-name">
+                        <h6 id="fullName"> Username </h6>
+                        <p> Tarif: 3 OY |  </p>
+                        <p id="date"><span id="day"></span><span id="month"></span><span id="year"></span></p>
+                    </div>
+                    <button class="menu-btn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+     <!-- NAVIGATION BAR End -->
+
+    <!-- Main Part  -->
+    <main class="container">
+        <h3 class="settings-h3"> Foydalanuvchi sozlamalari</h3>
+        
+        <div class="col-md-2">
+            <div class="picSet" data-aos="zoom-in-right" data-aos-duration="900">
+                <img class="subtract" src="../images/Subtract.png">
+                <img class="camera-icon" src="../images/camera.png" alt="">
+            </div>
+        </div>
+        <div class="col-md-4">
+            <form id="submitForm" action="">
+    	        <!-- Inputs here -->
+                <div class="input-cards" data-aos="fade-left" data-aos-duration="800">
+                    <div class="input-icon">
+                        <img src="../images/form-user.png" alt="">    
+                    </div>
+                    <p>To’liq ismi</p>
+                    <input type="text" id="inputFullName" placeholder="To'liq ismi" maxlength="30" required >
+                </div> 
+
+                <div class="input-cards" data-aos="fade-left" data-aos-duration="800" data-aos-delay="100">
+                    <div class="input-icon">
+                        <img src="../images/phone.png" alt="">
+                    </div>
+
+                    <p>Telefon nomer</p>
+                    <input value="" type="tel" maxlength="18" minlength="10" id="inputNumber" placeholder="Telefon nomer" required >
+                </div> 
+
+                <div class="input-cards" data-aos="fade-left" data-aos-duration="800" data-aos-delay="200">
+                    <div class="input-icon">
+                        <img src="../images/lock.png" alt="">   
+                    </div>
+                    <p>Parol</p>
+                    <input type="password" minlength="6" class="parol" id="parol" placeholder="Parol" required >
+                </div>  
+
+                <div class="input-cards" data-aos="fade-left" data-aos-duration="800" data-aos-delay="300">
+                    <div class="input-icon" data-aos="fade-left">
+                        <img src="../images/lock.png" alt="">
+                    </div>
+                    <p>Parolni tasdiqlash</p>
+                    <input type="password" minlength="6" class="parol-check" id="parolCheck" placeholder="Parolni tasdiqlash" required >
+                </div>
+                
+                <button id="resetBtn" type="reset" data-aos="zoom-in" data-aos-duration="800">
+                    <i id="trash1" class="fas fa-trash"></i> O'chirish </button>
+                <button id="submitBtn" type="submit" data-aos="zoom-in" data-aos-duration="800"> Saqlash </button>
+
+    	        <!-- Inputs End  -->
+                <br />
+            </form>
+        </div>
+        
+        <div class="clr"></div>
+        <h3 class="settings-h3"> Foydalanuvchi natijalari </h3>
+        
+        <div class="card container">
+            <div class="myBlock" id="myBlock1">
+                <h2> 0 </h2>
+                <p> Bajarilgan <br />topshiriqlar </p>
+            </div>
+            <div class="myBlock" id="myBlock2">
+                <h2> 0 </h2>
+                <p> Bajarilgan <br />bo'limlar </p>
+            </div>
+            <div class="myBlock" id="myBlock3">
+                <h2> 0 </h2>
+                <p> Daasturlash <br /> tillari </p>
+            </div>
+        
+           <div class="clr"></div>
+            <button id="resetCardBtn" type="reset"><i id="trash2" class="fas fa-trash"></i> Tozalash </button>
+            
+        </div>
+    </main>
+    <div class="clr"></div>
+       <!--   FOOTER   -->
+
+       <footer>
+        <div class="container">
+            <div class="col-md-3">
+                <img class="footer-logo" src="../images/LOGO-footer.png" alt="">
+            </div>
+            <div class="col-md-7 footer-col-md-7">
+                <ul>
+                    <a class="footer-link" href="../index.html#about-us">
+                        <li>Loyiha haqida</li>
+                    </a>
+                    <a class="footer-link" href="../index.html#prog-langs">
+                        <li>Dasturlash tillari </li>
+                    </a>
+                    <a class="footer-link" href="../index.html#price">
+                        <li>Narxlar</li>
+                    </a>
+                    </li>
+                    <a class="footer-link" href="../index.html#comment">
+                        <li>Biz haqimizda</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="col-md-2 icons">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-telegram-plane"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+            <div class="clr"></div>
+            <p>© “Personal Development Process” MCHJ</p>
+        </div>
+    </footer>
+        <!--   FOOTER End   -->
+    
+        <!--   IMPORTANT JS LINKS -->  
+    <script src="../aos/dist/aos.js"></script>
+    <script src="../Bootstrap/js/bootstrap.min.js"></script>
+    <script>
+       AOS.init({
+          easing: 'ease-in-out-sine'
+       });
+    </script>
+    <script type="text/javascript">
+        //  ***  Setting Date  ***
+        let date = new Date();
+        let day = date.getDate();
+        let month = date.getMonth();
+        month ++; 
+        let year = date.getFullYear();
+        
+        if (day < 10) {
+            document.getElementById('day').innerHTML = "0" + day + ".";
+        } else if (day >= 10) {
+            document.getElementById('day').innerHTML = day + ".";
+        };
+        
+        if (month < 10) {
+            document.getElementById('month').innerHTML = "0" + month + ".";
+        } else if (month >= 10) {
+            document.getElementById('month').innerHTML = month + ".";
+        };
+        
+        document.getElementById('year').innerHTML = year;
+        
+        document.getElementById('resetCardBtn')
+        
+        //  ***  Check and Confirm Password  ***
+        let submitForm = document.getElementById('submitForm'),
+            fullName = document.getElementById('fullName');
+
+        submitForm.addEventListener('submit', e => {
+
+            e.preventDefault();
+
+            let inputName = document.getElementById('inputFullName').value, 
+                inputNumber = document.getElementById('inputNumber').value,
+                password =  document.getElementById('parol').value,
+                confirmPassword = document.getElementById('parolCheck').value;
+
+            if ( inputName != '' ) {
+                fullName.innerHTML = inputName;
+            }; 
+            if (inputNumber.length < 10) {
+                alert("Telefon nomerni to'liq kiriting.");
+            } else if (password != confirmPassword) {
+                alert("Parol mos kelmadi.");
+                return false;
+            } else if (password.length >= 6 && password == confirmPassword) {
+                alert('Uzr, tizim serverga ulanmagan!')
+                return true;
+            };
+        });
+
+        // RESET BTNs 
+        
+        let reset = document.getElementById('resetBtn');
+        let resetCard = document.getElementById('resetCardBtn');
+        let trash1 = document.getElementById('trash1');
+        let trash2 = document.getElementById('trash2');
+        // reset btn func
+        reset.onmouseover = function() {
+            trash1.style.color = ('#fff');
+        }
+        reset.onmouseout = function() {
+            trash1.style.color = ('#FB4767');
+        }
+        
+        // reset Card btn func
+        resetCard.onmouseover = function() {
+            trash2.style.color = ('#fff');
+        }
+        resetCard.onmouseout = function() {
+            trash2.style.color = ('#FB4767');
+        }
+        
+    </script>
+    <!--   JS LINKS End-->
+</body>
+</html>      

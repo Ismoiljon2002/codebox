@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Kurslarim </title>
+    <!-- Meta Tags  -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta Tags End  -->
+
+    <!-- Required CSS Links  -->
+    <link rel="stylesheet" href="../aos/dist/aos.css">
+    <link rel="stylesheet" href="../Bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="../fontawesome-free-5.15.3-web/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="style_page3.css">
+    <!-- Links End  -->
+</head>
+
+<body>
+    <!-- NAVIGATION BAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navigationBar">
+        <div class="container-fluid container">
+            <a class="navbar-brand" href="#">
+                <img class="logo-img" src="../images/Group.svg" alt="" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText"
+                aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="../index.html#about-us">Loyiha haqida</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#anguages">Dasturlash tillari</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html#price">Narxlar</a>
+                    </li>
+                </ul>
+
+                <div class="d-flex nav-right-block">
+                    <i class="fas fa-search"></i>
+                    <i class="fas fa-bell"></i>
+                    <div class="user-pic">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="full-name">
+                        <h6 id="fullName"> Username </h6>
+                        <p> Tarif: 3 OY | </p>
+                        <p id="date"><span id="day"></span><span id="month"></span><span id="year"></span></p>
+                    </div>
+                    <button class="menu-btn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- NAVIGATION BAR End -->
+
+
+    <!--   MAIN PART   -->
+    <main>
+        <!-- Counter Card  -->
+        <section class="container">
+            <div id="card" class="container" data-aos="flip-up" data-aos-duration="800">
+                <div class="block">
+                    <p> Bajarilgan topshiriqlar </p>
+                    <h3> 0 </h3>
+                    <p style="color: #E10C33"> Bugun: 0 ta </p>
+                </div>
+                <div class="block">
+                    <p> Bajarilgan bo'limlar </p>
+                    <h3> 0 </h3>
+                    <p style="color: #E10C33"> Bugun: 0 ta </p>
+                </div>
+                <div class="block">
+                    <p> Dasturlash tillari </p>
+                    <h3> 0 </h3>
+                    <p style="color: #E10C33"> Bugun: 0 ta </p>
+                </div>
+            </div>
+        </section>
+        <!-- Counter Card End  -->
+
+        <div class="clr"></div>
+
+        <!-- Kurs yaratish -->
+        <section class="container">
+            <h2> Hozirda sizda kurslar mavjud emas </h2>
+            <a href="#progLangs">
+                <div class="col-md-4">
+                    <div class="course-card container" data-aos="zoom-out" data-aos-duration="900">
+                        <h5> 
+                            <i class="fas fa-plus"></i>
+                             Kurs yaratish 
+                        </h5>
+                    </div>
+                </div>
+            </a>
+        </section>
+        <!-- Kurs yaratish End -->
+
+        <div class="clr"></div>
+        
+        <section id="progLangs" class="container">
+            <h2>Barcha kurslar</h2>
+            <button type="button"> BARCHASI </button>
+
+            <div class="clr"></div>
+
+            <div class="col-md-4">
+                <div class="prog-card">
+                    <div class="card-header">
+                        <h4>JAVA</h4>
+                        <p>128 ta <span class="green"> topshiriq </span> | 38 ta <span class="green"> bo’lim </span>
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <p>Java - silno tipirovannyy obyektno orientirovann yysag yazyk programmirovaniya,
+                            razrabotannyy kompaniey Sun Microsystems. V nastoyashchee vremya proekt matlenejit
+                            OpenSource i rasprof ranya yaetsya po litsenzii GPL. V OpenJDK vnosyat vklad krupnye
+                            kompanii, sochi kak - Oracle, RedHat, IBM, Google
+                        </p>
+    
+                        <a href="./page2_3oy.html">
+                            <button type="button">Kursni boshlash <i class="fas fa-arrow-right"></i> </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="prog-card">
+                    <div class="card-header">
+                        <h4>PYTHON</h4>
+                        <p>122 ta <span class="green"> topshiriq </span> | 13 ta <span class="green"> bo’lim </span>
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            Python - vysokourovnevyy yazyk programirova
+                            niya obshchego naznacheniya, orientirovannyy na povyshenie proizvoditelnosti
+                            razrabotchika i
+                            chitaemosti koda. Syntaxxd Python minimalis tichen. V toni vremya standartnaya
+                            biblioteka vklyuchaet bolshoy ob'yom poleznyx fonksiyont
+                        </p>
+    
+                        <a href="#">
+                            <button type="button" onclick="alert('Python dasturlash kursimiz hozircha tayyor emas.')">Kursni boshlash <i class="fas fa-arrow-right"></i> </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="prog-card">
+                    <div class="card-header">
+                        <h4>GO</h4>
+                        <p>122 ta <span class="green"> topshiriq </span> | 13 ta <span class="green"> bo’lim </span>
+                        </p>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            Go - kompilyumemyy multilogo yazyk program
+                            movaniya, razrabotannyy vnutri kompanii Google.
+                            Razrabotka Go nachalas v sentabr 2007 goda, ego neposredstvennym projektirovaniem zanima
+                            lis Robert Grizmer, Rob Pikk i Ken Thompson, zanimavshiesya do etogo proektom razrabotki
+                        </p>
+    
+                        <a href="#">
+                            <button type="button" onclick="alert('Go dasturlash kursimiz hozircha tayyor emas.')">Kursni boshlash <i class="fas fa-arrow-right"></i> </button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+       
+        <!--   TILNI TANLASH End -->
+    </main>
+    <!--   MAIN PART End  -->
+    <div class="clr"></div>
+
+    <!--   FOOTER   -->
+    <footer>
+        <div class="container">
+            <div class="col-md-3">
+                <img class="footer-logo" src="../images/LOGO-footer.png" alt="">
+            </div>
+            <div class="col-md-7 footer-col-md-7">
+                <ul>
+                    <a class="footer-link" href="../index.html#about-us">
+                        <li>Loyiha haqida</li>
+                    </a>
+                    <a class="footer-link" href="../index.html#prog-langs">
+                        <li>Dasturlash tillari </li>
+                    </a>
+                    <a class="footer-link" href="../index.html#price">
+                        <li>Narxlar</li>
+                    </a>
+                    </li>
+                    <a class="footer-link" href="../index.html#comment">
+                        <li>Biz haqimizda</li>
+                    </a>
+                </ul>
+            </div>
+            <div class="col-md-2 icons">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram-square"></i>
+                <i class="fab fa-telegram-plane"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+            <div class="clr"></div>
+            <p>© “Personal Development Process” MCHJ</p>
+        </div>
+    </footer>
+    <!--   FOOTER End   -->
+
+    <!--   IMPORTANT JS LINKS -->
+    <script src="../aos/dist/aos.js"></script>
+    <script src="../Bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out-sine'
+        });
+    </script>
+    <script src="app.js"></script>
+    <script type="text/javascript">
+
+
+        //  ***  Setting Date  ***
+        let date = new Date();
+        let day = date.getDate();
+        let monthh = date.getMonth();
+        let month = monthh + 1;
+        let year = date.getFullYear();
+
+        if (day < 10) {
+            document.getElementById('day').innerHTML = "0" + day + ".";
+        } else if (day >= 10) {
+            document.getElementById('day').innerHTML = day + ".";
+        };
+
+        if (month < 10) {
+            document.getElementById('month').innerHTML = "0" + month + ".";
+        } else if (month >= 10) {
+            document.getElementById('month').innerHTML = month + ".";
+        };
+
+        document.getElementById('year').innerHTML = year;
+
+        //   Alert Action
+
+        document.getElementById('alertBtn').onclick = function () {
+            alert("Uzr so'raymiz, bu darslar hali tayyor emas.")
+        };
+
+        document.getElementById('alertBt').onclick = function () {
+            alert("Uzr so'raymiz, bu darslar hali tayyor emas.")
+        }
+
+    </script>
+    <!--   JS LINKS End-->
+</body>
+
+</html>

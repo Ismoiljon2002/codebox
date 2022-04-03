@@ -1,0 +1,1483 @@
+/* --- FONTS --- */
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap'); /* Src Sans Pro */
+@import url('https://fonts.googleapis.com/css2?family=Gilroy&display=swap'); /* gilroy */ 
+@import url('./San\ Francisco/pro/SF-Pro-Display-Heavy.otf');
+
+:root {
+    --yashil: #1DD1A1;
+    --qora: #343434;
+}
+a {
+    text-decoration: none;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    color: var(--qora);
+    background: #F5F5F5;
+    font-family: 'SF Pro Display', sans-serif!important;
+    scroll-behavior: smooth!important;
+    overflow-x: hidden!important;
+}
+.col-md-6, .col-md-7, .col-md-5, .col-md-4, .col-md-3, .col-md-2 {
+    float: left;
+}
+.clr {
+    clear: both;
+}
+/* Navbar */
+.navbar {
+    height: 80px;
+    background-color: #fff!important;
+}
+.navbar-brand {
+    margin-right: 25px;
+}
+.nav-link {
+    color: var(--qora)!important;
+    font-size: 14px;
+    margin: 0 25px;
+    line-height: 16.7px;
+    font-weight: 600;
+    transition: .3s ease;
+}
+.nav-link:hover {
+    color: var(--yashil) !important;
+}
+#navbar-select {
+    font-size: 14px;
+    line-height: 16.7px;
+    color: var(--qora);
+    outline: none;
+    border: none;
+    cursor: pointer;
+    padding: 9px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.navbar-btn {
+    font-size: 14px;
+    line-height: 16.7px;
+    color: #fff;
+    background-color: var(--yashil);
+    border: 1px solid var(--yashil);
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    padding: 9px;
+    margin-left: 40px;
+    transition: .3s ease;
+}
+.navbar-btn:hover {
+    color: var(--yashil);
+    background-color: #fff;
+}
+/* Navbar End */
+
+/* Header */
+.header-h1, .main-h2, .prog-h2, .ad-h2, .tarif-h2, .comment-h2 {
+    font-size: 40px;
+    line-height: 48px;
+    padding: 150px 0 65px;
+    font-weight: 800;
+}
+.home-form {
+    width: 400px;
+    height: 140px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0px 6px 30px 0px #DCEBE6DE;
+    padding: 10px 30px;
+}
+.home-form p {
+    font-size: 14px;
+    line-height: 16.7px;
+    color: var(--yashil);
+    margin: 0;
+}
+.home-form input {
+    font-size: 16px;
+    line-height: 19px;
+    color: #989898;
+    outline: none;
+    border: none;
+    margin: 3px 0 0; 
+    padding: 3px 0;
+}
+.home-form hr {
+    width: 400px;
+    margin-left: -30px;
+}
+.header-btn {
+    font-size: 20px;
+    line-height: 24px;
+    color: #fff;
+    background-color: var(--yashil);
+    border-radius: 6px;
+    border: 1px solid var(--yashil);
+    outline: none;
+    cursor: pointer;
+    padding: 14px 28px;
+    margin: 18px 35px 0 0;
+    transition: .3s ease;
+}
+.header-btn:hover {
+    background-color: transparent;
+    color: var(--yashil);
+}
+.ellipse {
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--yashil);
+    background: var(--yashil);
+    padding: 2.4px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.ellipse:hover {
+    background-color: #139573;
+}
+.circle {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin: 0 0 0 19px;
+    transition: .3s ease;
+}
+.col-md-7 > form > p {
+    display: inline-block;
+    font-size: 14px;
+    line-height: 16.7px;
+    color: #0F314C;
+    margin: 0 13px;
+}
+.header-img {
+    width: 100%;
+    margin: 110px 0 0 ;
+    transition: .3s ease;
+}
+/* .header-img:hover {
+    opacity: .85;
+}
+.col-md-5 {
+    position: relative;
+}
+.header-play-btn {
+    z-index: 10;
+    position: absolute;
+    top: 261px;
+    left: 189px;
+    width: 77px;
+    animation: shadow 2s linear infinite;
+} 
+@keyframes shadow {
+    0% {
+        box-shadow: none;
+    }
+    25% {
+        box-shadow: 0 0 50px #fff;
+    }
+    50% {
+        box-shadow: 0 0 70px #ffffff99;
+    }
+    75% {
+        box-shadow: 0 0 90px #ffffff44;
+    }
+    100% {
+        box-shadow: 0 0 110px #ffffff00;
+    }
+}*/
+/* Header End */
+
+/* About Section */
+.main-img > img {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+.main-img {
+    padding: 40px 0;
+}
+.main-text {
+    padding: 140px 0  0 50px;
+}
+.main-text h3 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 600;
+}
+.main-text p {
+    font-size: 20px;
+    line-height: 24px;
+    margin: 22px 170px 0 0;
+}
+
+.bg-oval-1 {
+    width: 55% !important;
+}
+.string, .array, .logic {
+    z-index: 10;
+    position: relative;
+    width: 300px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #fff;
+    box-shadow: 0 30px 40px #c9d5deb9;
+    margin: -250px 0 0 150px;
+}
+.array {
+    z-index: 0;
+    box-shadow: none;
+    margin: 17px 0 0px 200px;
+}
+.logic {
+    margin: 15px 0px 0px 93px;
+}
+.tick, .arrayAlert {
+    color: var(--yashil);
+    font-size: 20px;
+    margin: 15px 18px 15px 22px;
+}
+.arrayAlert {
+    color: #FB4767;
+}
+.fa-ellipsis-v {
+    position: absolute;
+    color: #C4C4C4;
+    font-size: 26px;
+    right: 35px;
+    top: 12px;
+}
+.string > p, .array > p, .logic > p {
+    display: inline-block; 
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 10px 0 0;
+}
+
+.bg-oval-2 {
+    position: relative !important;
+    width: 55% !important;
+}
+.last-img-block {
+    position: relative;
+}
+.last-img-block > img {
+    position: absolute;
+}
+.bg-oval-ellipse {
+    width: 140px !important;
+    margin: -230px 0 0 250px !important;
+}
+.first-tick {
+    width: 31px !important;
+    margin: -320px 0 0 325px !important;
+}
+.large-user {
+    width: 160px !important;
+    margin: -260px 0 0 180px !important;
+}
+.medium-user {
+    width: 140px !important;
+    margin: -245px 0 0 315px !important;
+}
+.html-coding {
+    width: 44px !important;
+    padding: 4px 7px;
+    border-radius: 4px;
+    background-color: #fff;
+    margin: -125px 0 0 220px !important;
+}
+.small-user {
+    width: 125px !important;
+    margin: -135px 0 0 245px !important;
+}
+.medium-user-red {
+    z-index: 2;
+    width: 150px !important;
+    margin: -155px 0 0 320px !important;
+}
+.last-tick {
+    z-index: 1;
+    width: 30px !important;
+    margin: -90px 0 0 350px !important;
+}
+/* About Section End*/
+
+/* Programming languages */
+.col-md-4 {
+    padding: 50px 15px;
+}
+.prog-card {
+    position: relative;
+    height: 350px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.card-header {
+    background-color: #fff!important;
+}
+.card-header > h4 {
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 800;
+    margin: 17px 13px 6px;
+}
+.card-header > p {
+    font-size: 15px;
+    line-height: 17.7px;
+    margin: 8px 13px;
+}
+.green {
+    opacity: .6;
+}
+.card-body > p {
+    font-size: 15px;
+    line-height: 18px;
+    margin: 10px 13px ;
+}
+.card-body > a > button {
+    position: absolute;
+    font-size: 16px;
+    line-height: 19px;
+    color: #F6FCFA;
+    background: var(--yashil);
+    border: 1px solid var(--yashil);
+    border-radius: 4px;
+    outline: none;
+    padding: 11px 15px;
+    left: 30px;
+    bottom: 32px;
+    transition: .3s ease;
+}
+.card-body > a > button:hover {
+    color: var(--yashil);
+    background-color: transparent;
+}
+.fa-arrow-right {
+    margin: 0 10px 0 10px;
+    transition: margin .3s ease;
+}
+.card-body > a > button:hover .fa-arrow-right {
+    margin: 0 -3px 0 23px;
+}
+/* Programming languages End*/
+
+/* Advertisement Section */
+.ad-p {
+    width: 410px;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: .1px;
+    margin: -40px 0 22px;
+}
+.ad-btn {
+    color: #fff;
+    background-color: var(--yashil);
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 4px;
+    border: 1px solid var(--yashil);
+    outline: none;
+    cursor: pointer;
+    padding: 11px 43px;
+    box-shadow: 0px 10px 30px 0px #15A8814D;
+    transition: .3s ease;
+}
+.ad-btn:hover {
+    color: var(--yashil);
+    background: transparent;
+    box-shadow: none;
+}
+.ad-img {
+    width: 100%;
+    margin-top: 100px;
+}
+/* Advertisement Section End */
+
+/* Tariff section */
+.tarif-card {
+    width: 330px;
+    height: 470px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 0 auto;
+}
+.tarif-card > h4 {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 800;
+    padding: 47px 0 41px;
+    margin: 20px 0 0;
+}
+.tarif-card > h3 {
+    font-size: 32px;
+    line-height: 38.2px;
+    font-weight: 800;
+}
+.tarif-card > h5 {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 800;
+    margin: 5px 0px 30px;
+}
+.tarif-card > p {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    margin: 0 33px 30px;
+}
+.tarif-card > a > button {
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    padding: 11px 44px;
+    color: var(--yashil);
+    background: transparent;
+    box-shadow: 0px 6px 20px 0px #15a88109;
+    border: 1px solid var(--yashil);
+    border-radius: 4px;
+    outline: none;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.tarif-card > a > button:hover {
+    color: #fff;
+    background-color: var(--yashil);
+    box-shadow: 0px 10px 30px 0px #15A8814D;
+}
+.middle-tarif-card {
+    position: relative;
+    width: 350px;
+    height: 525px;
+    border-top: 6px solid var(--yashil);
+    margin: -12px auto 0;
+}
+.tavsiya {
+    position: absolute;
+    width: 100px;
+    top: 21px;
+    right: -7px;
+}
+.middle-tarif-card > h4 {
+    padding: 53px 0 41px;
+}
+.middle-tarif-card > p {
+    margin: 0 40px 30px;
+}
+.middle-tarif-card > a > button {
+    color: #fff;
+    background-color: var(--yashil);
+    box-shadow: 0px 10px 30px 0px #15A8814D;
+}
+.middle-tarif-card > a > button:hover {
+    color: var(--yashil);
+    background: transparent;
+    box-shadow: 0px 6px 20px 0px #15a88109;
+}
+/* Tariff section End */
+
+/* Comment Section */
+.carousel-inner {
+    height: 550px!important;
+}
+.fa-chevron-right, .fa-chevron-left {
+    color: #343434 !important;
+    font-size: 27px;
+    background: #EEF2F5;
+    padding: 17px 22.5px;
+    border-radius: 50%;
+}
+.carousel-control-prev {
+    left: 143px;
+}
+.carousel-control-next {
+    right: 143px;
+}
+.carousel-indicators [data-bs-target] {
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border: 1px solid var(--yashil);
+    border-radius: 50%;
+    opacity: 1;
+    margin: 50px 6px 1rem !important;
+    transition: .3s ease;
+}
+.carousel-indicators .active {
+    background: var(--yashil);
+}
+
+.back-card {
+    display: inline-block;
+    width: 84%;
+    height: 250px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin: 150px 8% 50px;
+}
+.front-card {
+    position: relative;
+    width: 75%;
+    height: 370px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin: -55px auto 0;
+    box-shadow: 0px 30px 40px 0px #C8D5DE4D;
+}
+.vergul-1 {
+    position: absolute;
+    top: -20px;
+    left: 35px;
+}
+.vergul-2 {
+    position: absolute;
+    bottom: -20px;
+    right: 35px;
+}
+.face {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 10px solid #f5f5f5;
+    margin-top: -75px;
+}
+.front-card > h4 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 17px auto 28px;
+}
+.front-card > p {
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 500;
+    margin: 0 80px;
+}
+/* Comment Section End */
+
+/* Footer */
+footer {
+    height: 120px;
+    background-color: #093845;
+    color: #F6FCFA;
+    padding: 38px 0 10px;
+    margin-top: 100px;
+}
+ul {
+    list-style-type: none;
+}
+.footer-link {
+    font-size: 16px;
+    line-height: 19px;
+    color: #F6FCFA!important;
+    text-decoration: none;
+    display: inline-block;
+    margin: 15px 24px 0;
+}
+.footer-link:hover {
+    text-decoration: underline;
+}
+.icons > i {
+    font-size: 23px;
+    opacity: .5;
+    margin: 15px 12px;
+    cursor: pointer;
+    transition: .3s ease;
+}
+.icons > i:hover {
+    opacity: 1;
+}
+footer > .container > p {
+    opacity: .5;
+    font-size: 12px;
+    line-height: 14px;
+}
+/* Footer End */
+
+/* =====   RESPONSIVE   ===== */
+
+@media only screen and ( max-width: 1399px ) {
+    .img-3 {
+        margin: 120px auto 20px !important;
+    }
+    .text-3 {
+        margin: 80px auto 0 !important;
+    }
+    .main-text p {
+        margin: 22px 82px 0 0;
+    }
+    .string {
+        margin: -222px 0 0 150px;
+    }
+    .bg-oval-ellipse {
+        width: 130px !important;
+        margin: -200px 0 0 205px !important;
+    }
+    .large-user {
+        width: 150px !important;
+        margin: -235px 0 0 130px !important;
+    }
+    .first-tick {
+        width: 26px !important;
+        margin: -280px 0 0 300px !important;
+    }
+    .html-coding {
+        width: 40px !important;
+        margin: -100px 0 0 140px !important;
+    }
+    .small-user {
+        width: 120px !important;
+        margin: -105px 0 0 166px !important;
+    }
+    .medium-user {
+        width: 130px !important;
+        margin: -220px 0 0 250px !important;
+    }
+    .medium-user-red {
+        width: 140px !important;
+        margin: -140px 0 0 265px !important;
+    }
+    .last-tick {
+        width: 25px !important;
+        margin: -75px 0 0 295px !important;
+    }
+    .text-4 {
+        padding: 100px 0 0 50px !important;
+    }
+    .card-header > h4 {
+        margin: 6px 13px;
+    }
+    .card-body > a > button {
+        font-size: 15px;
+        padding: 9px 15px;
+        left: 30px;
+        bottom: 22px;
+    }
+    .header-h1, .main-h2, .prog-h2, .ad-h2, .tarif-h2, .comment-h2 {
+        font-size: 36px;
+        line-height: 45px;
+    }
+    .carousel-control-prev {
+        left: 122px;
+    }
+    .carousel-control-next {
+        right: 122px;
+    }
+    .icons > i {
+        margin: 15px 10px;
+    }
+}
+
+@media only screen and ( max-width: 1199px ) {
+    .nav-link {
+        margin: 0 15px;
+    }
+    .header-h1, .main-h2, .prog-h2, .ad-h2, .tarif-h2, .comment-h2 {
+        font-size: 34px;
+        line-height: 42px;
+    }
+    .header-btn {
+        font-size: 19px;
+        line-height: 20px;
+    }
+    .main-text h3 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+    .main-text p {
+        font-size: 16px;
+        line-height: 20px;
+    }
+    .main-text {
+        padding: 120px 0 0 50px;
+    }
+    .bg-oval-1 {
+        margin: 40px auto 0 !important;
+    }
+    .string, .array, .logic {
+        width: 240px;
+        height: 40px;
+        margin: -200px 0 0 120px;
+    }   
+    .array {
+        margin: 17px 0 0px 170px;
+    }
+    .logic {
+        margin: 15px 0px 0px 93px;
+    }
+    .string > p, .array > p, .logic > p {
+        font-size: 19px;
+        line-height: 24px;
+        margin: 0px 0 0;
+    }
+    .fa-ellipsis-v {
+        font-size: 23px;
+        right: 30px;
+        top: 10px;
+    }
+    .tick, .arrayAlert {
+        margin: 10px 13px 0px 17px;
+    }
+    .bg-oval-2 {
+        margin: 20px auto 0 !important;
+    }
+    .bg-oval-ellipse {
+        width: 120px !important;
+        margin: -170px 0 0 170px !important;
+    }
+    .large-user {
+        width: 130px !important;
+        margin: -220px 0 0 120px !important;
+    }
+    .html-coding {
+        width: 35px !important;
+        margin: -90px 0 0 120px !important;
+    }
+    .small-user {
+        width: 110px !important;
+        margin: -95px 0 0 140px !important;
+    }
+    .medium-user {
+        width: 120px !important;
+        margin: -200px 0 0 220px !important;
+    }
+    .medium-user-red {
+        width: 130px !important;
+        margin: -120px 0 0 230px !important;
+    }
+    .last-tick {
+        width: 22px !important;
+        margin: -60px 0 0 255px !important;
+    }
+    .first-tick {
+        width: 22px !important;
+        margin: -235px 0 0 240px !important;
+    }
+    .card-header > h4 {
+        font-size: 20px;
+        line-height: 22px;
+        margin: 4px 0px;
+    }
+    .card-header > p {
+        font-size: 14.5px;
+        margin: 8px 0px;
+    }
+    .card-body > p {
+        font-size: 14px;
+        margin: 0;
+    }
+    .card-body > a > button {
+        left: 15px;
+        bottom: 30px;
+    }
+    .ad-h2 {
+        font-size: 27px;
+        line-height: 37px;
+    }
+    .ad-img {
+        margin-top: 130px;
+    }
+    .tarif-card {
+        width: 260px;
+        height: 420px;
+    }
+    .middle-tarif-card {
+        width: 300px;
+        height: 455px;
+        margin: 0 0 0 -10px;
+    }
+    .tarif-card > h4 {
+        font-size: 27px;
+        line-height: 30px;
+        padding: 50px 0 30px;
+        margin: 15px 0 0;
+    }
+    .tarif-card > h3 {
+        font-size: 29px;
+        line-height: 36px;
+    }
+    .tarif-card > p {
+        margin: 0 11px 30px;
+    }
+    .middle-tarif-card h4 {
+        padding: 44px 0 30px;
+    }
+    .back-card {
+        width: 100%;
+        margin: 150px 0 50px;
+    }
+    .carousel-control-prev {
+        left: 47px;
+    }
+    .carousel-control-next {
+        right: 47px;
+    }
+    .col-md-7 {
+        max-width: calc(100% / 12 * 7) - 30px;
+    }
+    .col-md-2 {
+        max-width: calc(100% / 12 * 2) + 30px;
+    }
+    .footer-link {
+        margin: 15px 17px 0;
+    }
+    .icons > i {
+        margin: 15px 7px;
+    }
+}
+
+@media only screen and ( max-width: 991px )  {
+    .navbar {
+        height: auto;
+    }
+    .navbar-brand {
+        margin: 8px 25px 8px 0;
+    }
+    .navbar-toggler {
+        font-size: 15px;
+        border: 1px solid var(--qora) !important;
+        box-shadow: none !important;
+        transition: .3s ease;
+    }
+    .navbar-toggler:hover {
+        border: 2px solid var(--yashil) !important;
+    }
+    .nav-link {
+        text-align: center;
+    }
+    .d-flex {
+        display: block !important; 
+    }
+    #navbar-select, .navbar-btn {
+        display: block !important;
+        margin: 7px auto !important;
+    }
+    .header-h1, .main-h2, .prog-h2, .ad-h2, .tarif-h2, .comment-h2 {
+        font-size: 25px;
+        line-height: 35px;
+        padding: 130px 0 50px;
+    }
+    .home-form {
+        width: 320px;
+        height: 120px;
+        padding: 5px 20px;
+    }
+    .home-form input {
+        padding: 5px 0;
+
+    }
+    .home-form hr {
+        width: 320px;
+        margin: 7px 0 8px -20px;
+    }
+    .header-img {
+        margin: 150px 0 0;
+    }
+    .header-btn {
+        font-size: 17px;
+        padding: 10px 25px;
+    }
+    .main-text {
+        padding: 80px 0 0 20px;
+    }
+    .main-img > img {
+        width: 70%;
+    }
+    .main-text p {
+        margin: 22px 40px 0 0;
+    }
+    .main-text h3 {
+        font-size: 20.3px;
+        line-height: 26px;
+    }
+    .bg-oval-1 {
+        width: 65% !important;
+        margin: 10px auto 0 !important;
+    }
+    .string, .array, .logic {
+        width: 200px;
+        height: 35px;
+        margin: -175px 0 0 70px;
+    }
+    .array {
+        margin: 17px 0 0px 110px;
+    }
+    .logic {
+        margin: 17px 0 0px 20px;
+    }
+    .string > p, .array > p, .logic > p {
+        font-size: 18px;
+    }
+    .tick, .arrayAlert {
+        font-size: 18px;
+        margin: 10px 13px 0px 17px;
+    }
+    .fa-ellipsis-v {
+        font-size: 18px;
+        right: 23px;
+        top: 9px;
+    }
+    .bg-oval-2 {
+        margin: 30px auto 0 !important;
+        width: 70% !important;
+    }
+    .bg-oval-ellipse {
+        width: 110px !important;
+        margin: -165px 0 0 115px !important;
+    }
+    .large-user {
+        width: 110px !important;
+        margin: -200px 0 0 70px !important;
+    }
+    .html-coding {
+        margin: -75px 0 0 70px !important;
+    }
+    .small-user {
+        margin: -80px 0 0 90px !important;
+    }
+    .first-tick {
+        margin: -220px 0 0 190px !important;
+    }
+    .medium-user {
+        width: 100px !important;
+        margin: -180px 0 0 170px !important;
+    }
+    .medium-user-red {
+        width: 120px !important;
+        margin: -110px 0 0 175px !important;
+    }
+    .last-tick {
+        width: 22px !important;
+        margin: -55px 0 0 200px !important;
+    }
+    .col-md-4 {
+        padding: 30px 5px;
+    }
+    .card-header > p {
+        font-size: 14px;
+        margin: 8px 0px 3px;
+    }
+    .card-body > p {
+        font-size: 13.5px;
+        margin: -5px 0 0;
+        line-height: 17px;
+    }
+    .card-body > a > button {
+        padding: 7px 10px;
+        bottom: 25px;
+    }
+    .ad-h2 {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .ad-p {
+        width: 105%;
+        font-size: 13px;
+        line-height: 17px;
+    }
+    .ad-btn {
+        padding: 8px 30px;
+    }
+    .tarif-card {
+        width: 200px;
+        height: 365px;
+    }
+    .middle-tarif-card {
+        width: 243px;
+        height: 395px;
+    }    
+    .tavsiya {
+        width: 90px;
+        top: 9px;
+    }
+    .tarif-card > h4 {
+        font-size: 22px;
+        line-height: 20px;
+        padding: 40px 0 10px;
+    }
+    .middle-tarif-card h4 {
+        padding: 34px 0 10px;
+    }
+    .tarif-card > h3 {
+        font-size: 24px;
+        line-height: 28px;
+    }
+    .tarif-card > h5 {
+        font-size: 14px;
+        line-height: 15px;
+        margin: 0px 0px 20px;
+    }
+    .tarif-card > p {
+        margin: 0 7px 30px;
+        font-size: 14px;
+    }
+    .middle-tarif-card > p {
+        margin: 0 22px 30px;
+    }
+    .tarif-card > a > button {
+        font-size: 15px;
+        padding: 9px 35px;
+    }
+
+    .carousel-inner {
+        height: 515px!important;
+    }
+    .face {
+        width: 130px;
+        height: 130px;
+        border: 8px solid #f5f5f5;
+        margin-top: -65px;
+    }
+    .back-card {
+        height: 220px;
+    }
+    .front-card {
+        width: 87%;
+        height: 300px;
+        margin: -40px auto 0;
+    }
+    .front-card > h4 {
+        margin: 10px auto 15px;
+    }
+    .front-card > p {
+        font-size: 15px;
+    }
+    .fa-chevron-right, .fa-chevron-left {
+        font-size: 22px;
+        padding: 14px 18px;
+    }
+    .carousel-control-prev {
+        left: 0px;
+    }
+    .carousel-control-next {
+        right: 0px;
+    }
+
+    footer {
+        height: auto;
+    }
+    .col-md-3, .footer-col-md-7, .col-md-2 {
+        max-width: 100% !important;
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-link {
+        margin: 30px 20px 0;
+    }
+    .icons > i {
+        margin: 15px;
+        font-size: 28px;
+    }
+    footer > .container > p {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-brand {
+        margin: 8px 20px;
+    }
+    .navbar-toggler {
+        margin-right: 30px;
+    }
+    .col-md-7, .col-md-6, .col-md-4 {
+        max-width: 100%;
+        width: 100%;
+    }
+    .header-h1, .main-h2 {
+        text-align: center;
+        font-size: 30px;
+        line-height: 40px;
+        padding: 80px 0 40px;
+    }
+    .home-form {
+        margin: 0 auto;
+    }
+    .header-btn {
+        margin-left: 118px;
+    }
+    .header-img {
+        display: block;
+        width: 75%;
+        margin: 120px auto 0;
+    }
+    .main-img > img {
+        width: 60%;
+    }
+    .main-text h3 {
+        font-size: 30px;
+        line-height: 36px;
+    }
+    .main-text p {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .text-4 {
+        padding: 120px 0 50px 20px !important;
+    }
+    .bg-oval-1 {
+        width: 55% !important;
+        margin: 60px auto 0 !important;
+    }
+    .string, .array, .logic {
+        width: 300px;
+        height: 45px;
+        margin: -222px 0 0 120px;
+    }
+    .array {
+        margin: 17px 0 0px 200px;
+    }
+    .logic {
+        margin: 17px 0 0px 70px;
+    }
+    .tick, .arrayAlert {
+        font-size: 21px;
+        margin: 13px 20px 0px 22px;
+    }
+    .string > p, .array > p, .logic > p {
+        font-size: 21px;
+        line-height: 24px;
+        margin: 0px 0 0;
+    }
+    .fa-ellipsis-v {
+        font-size: 21px;
+        right: 33px;
+        top: 12px;
+    }
+    .text-2 {
+        margin: 50px 0;
+    }
+    .text-3 {
+        margin: -30px auto 0 !important;
+    }
+    .bg-oval-2 {
+        width: 55% !important;
+    }
+    .bg-oval-ellipse {
+        width: 145px !important;
+        margin: -200px 0 0 195px !important;
+    }
+    .large-user {
+        width: 130px !important;
+        margin: -240px 0 0 140px !important;
+    }
+    .medium-user {
+        width: 120px !important;
+        margin: -240px 0 0 250px !important;
+    }
+    .medium-user-red {
+        width: 150px !important;
+        margin: -130px 0 0 270px !important;
+    }
+    .last-tick {
+        width: 30px !important;
+        margin: -60px 0 0 305px !important;
+    }
+    .small-user {
+        width: 115px;
+        margin: -100px 0 0 170px !important;
+    }
+    .html-coding {
+        width: 40px;
+        margin: -90px 0 0 135px !important;
+    }
+    .prog-h2, .ad-h2, .tarif-h2, .comment-h2 {
+        font-size: 28px;
+        line-height: 35px;
+        padding: 100px 0 40px;
+        text-align: center;
+    }
+    .card-header > h4 {
+        font-size: 30px;
+        line-height: 35px;
+        margin: 4px 15px;
+    }
+    .card-header > p {
+        font-size: 16px;
+        margin: 10px 15px 5px;
+    }
+    .card-body > p {
+        font-size: 16px;
+        margin: 0 15px;
+        line-height: 20px;
+    }
+    .card-body > a > button {
+        padding: 11px 20px;
+        bottom: 32px;
+        left: 32px;
+        font-size: 17px;
+    }
+    .prog-card {
+        height: 310px;
+    }
+    .ad-p {
+        width: auto;
+        font-size: 16px;
+        line-height: 21px;
+        margin: -20px 15px 22px;
+        text-align: justify;
+    }
+    .ad-btn {
+        padding: 11px 40px;
+        margin-left: 15px;
+    }
+    .tarif-card {
+        width: 330px;
+        height: 470px;
+    }
+    .tarif-card > h4 {
+        font-size: 30px;
+        line-height: 36px;
+        padding: 47px 0 41px;
+        margin: 20px 0 0;
+    }
+    .tarif-card > h3 {
+        font-size: 32px;
+        line-height: 38.2px;
+    }
+    .tarif-card > p {
+        font-size: 16px;
+        line-height: 19px;
+        margin: 0 33px 30px;
+    }
+    .tarif-card > a > button {
+        font-size: 16px;
+        line-height: 19px;
+        padding: 11px 44px;
+    }
+    .middle-tarif-card {
+        width: 350px;
+        height: 530px;
+        margin: 0 auto;
+    }
+    .tavsiya {
+        width: 100px;
+        top: 21px;
+        right: -7px;
+    }
+    .middle-tarif-card > h4 {
+        padding: 53px 0 41px;
+    }
+    .face {
+        width: 110px;
+        height: 110px;
+        border: 6px solid #f5f5f5;
+        margin-top: -55px;
+    }
+    .vergul-1, .vergul-2 {
+        width: 41px;
+    }
+    .front-card > p {
+        margin: 0 30px;
+    }
+    .footer-link {
+        margin: 30px 13px 0;
+    }
+}
+
+@media only screen and (max-width: 574px ) {
+    .header-img {
+        width: 90%;
+        margin: 80px auto 0;
+    }
+    .header-h1, .main-h2 {
+        font-size: 22px;
+        line-height: 27px;
+        padding: 60px 0 40px;
+    }
+    .header-btn {
+        margin-left: 15px;
+    }
+    .string, .array, .logic {
+        width: 200px;
+        height: 35px;
+        margin: -175px 0 0 70px;
+    }
+    .array {
+        margin: 17px 0 0px 110px;
+    }
+    .logic {
+        margin: 17px 0 0px 20px;
+    }
+    .tick, .arrayAlert {
+        font-size: 18px;
+        margin: 10px 13px 0px 17px;
+    }
+    .string > p, .array > p, .logic > p {
+        font-size: 18px;
+    }
+    .fa-ellipsis-v {
+        font-size: 18px;
+        right: 23px;
+        top: 9px;
+    }
+
+    .main-img > img {
+        width: 85%;
+    }
+    .bg-oval-1 {
+        width: 72% !important;
+    }
+    .bg-oval-2 {
+        width: 75% !important;
+    }
+    .large-user {
+        width: 120px !important;
+        margin: -200px 0 0 50px !important;
+    }
+    .medium-user {
+        width: 100px !important;
+        margin: -180px 0 0 150px !important;
+    }
+    .medium-user-red {
+        width: 120px !important;
+        margin: -110px 0 0 160px !important;
+    }
+    .last-tick {
+        width: 22px !important;
+        margin: -55px 0 0 180px !important;
+    }
+    .small-user {
+        width: 115px;
+        margin: -80px 0 0 80px !important;
+    }
+    .html-coding {
+        margin: -70px 0 0 50px !important;
+    }
+    .bg-oval-ellipse {
+        width: 110px !important;
+        margin: -165px 0 0 100px !important;
+    }
+
+    .main-h2 {
+        font-size: 25px;
+        line-height: 29px;
+        padding: 60px 0 40px;
+    }
+    .col-md-6, .col-md-4 {
+        padding: 30px 0 !important;
+    }
+    .main-text h3 {
+        font-size: 20.6px;
+        line-height: 30px;
+        text-align: center;
+    }
+    .main-text p {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: center;
+    }
+    .prog-h2 {
+        font-size: 18.2px;
+        line-height: 27px;
+        padding: 90px 0 30px;
+        text-align: center;
+    }
+    .card-header > h4 {
+        font-size: 25px;
+        line-height: 30px;
+        margin: 4px 0px;
+    }
+    .card-header > p {
+        font-size: 15px;
+        margin: 10px 0px 5px;
+    }
+    .card-body > p {
+        font-size: 15px;
+        margin: 0;
+        line-height: 17px;
+    }
+    .card-body > a > button {
+        padding: 8px 10px;
+        bottom: 20px;
+        left: 18px;
+        font-size: 16px;
+    }
+    .prog-card {
+        height: 320px;
+    }
+    .ad-h2 {
+        font-size: 19px;
+        line-height: 28px;
+        padding: 50px 0 0px;
+    }
+    .ad-p {
+        font-size: 14px;
+        line-height: 18px;
+        margin: 15px 5px 22px;
+    }
+    .ad-btn {
+        display: block;
+        margin: 0 auto;
+    }
+    .ad-img {
+        margin: 50px auto -50px;
+    }
+    .tarif-card {
+        width: 90%;
+        height: 380px;
+    }
+    .tarif-card > h4 {
+        font-size: 26px;
+        line-height: 30px;
+        padding: 40px 0 25px;
+    }
+    .tarif-card > h3 {
+        font-size: 29px;
+    }
+    .tarif-card > p {
+        font-size: 15px;
+        line-height: 18px;
+        margin: 0 11px 30px;
+    }
+    .tarif-card > a > button {
+        font-size: 15px;
+        padding: 9px 30px;
+    }
+    .middle-tarif-card {
+        width: 100%;
+        height: 430px;
+    }
+    .tavsiya {
+        top: 15px;
+    }
+
+    .carousel-inner {
+        height: 600px !important;
+    }
+    .vergul-1 {
+        top: -10px;
+        left: 10px;
+        width: 30px !important;
+    }
+    .vergul-2 {
+        bottom: -10px;
+        right: 10px;
+        width: 30px !important;
+    }
+    .back-card {
+        height: 320px;
+    }
+    .front-card {
+        width: 90%;
+        height: 410px;
+    }
+    .footer-link {
+        display: block;
+        text-align: center;
+        margin: 20px 0 0;
+    }
+    ul {
+        padding-left: 0;
+    }
+}
